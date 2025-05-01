@@ -17,4 +17,8 @@
     p{
         font-size: 16px;
     }
+    .productos-destacados {
+        @include grid (1fr, 5px);
+        width: 75%;
+    }
 }

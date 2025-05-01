@@ -1,3 +1,5 @@
+@import '../abstracts/mixin';
+
 /* Laptop */
 @media (max-width: 900px) {
     h6, .slide-content{
@@ -31,5 +33,8 @@
     }
     p{
         font-size: 13px;
+    }
+    .productos-destacados {
+        @include grid (1fr 1fr, 5px);
     }
 }

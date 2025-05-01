@@ -1,5 +1,12 @@
 @import '../abstracts/placeholder';
+@import '../abstracts/mixin';
 
 .centrar{
     @extend %flex-center;
+}
+
+.productos-destacados {
+    @include grid (repeat(3, 1fr), 5px);
+    width: 90%;
+    min-height: 20vh;
 }
